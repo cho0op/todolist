@@ -16,6 +16,16 @@
         {{ form.as_p }}
         <button type="submit">create</button>
     </form>
+    <br>
+    <form method="POST" action="{% url 'completetodo' todo.id %}">
+        {% csrf_token %}
+        <button type="submit">complete</button>
+    </form>
+    <br>
+    <form method="POST" action="{% url 'deletetodo' todo.id %}">
+        {% csrf_token %}
+        <button type="submit">delete</button>
+    </form>
 {% endblock %}
 </body>
 </html>

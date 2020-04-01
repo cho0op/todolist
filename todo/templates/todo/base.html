@@ -6,6 +6,10 @@
 </head>
 <body>
 
+<a href="{% url 'createtodo' %}">Create</a>
+<a href="{% url 'currenttodos' %}">Current</a>
+<a href="{% url 'copletedtodos' %}">Completed</a>
+
 {% if user.is_authenticated %}
     logged In as {{ user.username }}
 {% else %}

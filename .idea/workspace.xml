@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37b4434-5c72-430f-9350-4a3850e83ee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todewoo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todewoo/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todewoo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todewoo/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/templates/todo/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/templates/todo/currenttodos.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/currenttodos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/viewtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/viewtodo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +86,10 @@
       <updated>1585553896855</updated>
       <workItem from="1585553899370" duration="4717000" />
       <workItem from="1585580358378" duration="4606000" />
-      <workItem from="1585662790513" duration="14448000" />
+      <workItem from="1585662790513" duration="14767000" />
+      <workItem from="1585728289090" duration="1846000" />
+      <workItem from="1585747281676" duration="2069000" />
+      <workItem from="1585759352362" duration="5592000" />
     </task>
     <servers />
   </component>
@@ -100,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
