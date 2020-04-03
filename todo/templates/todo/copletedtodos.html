@@ -7,16 +7,16 @@
 <body>
 {% extends 'todo/base.html' %}
 {% block content %}
-    completed
-    <ul>
+    <h1 align="center">completed</h1>
+    <ul style="margin: 0 auto; width: 50%">
         {% for todo in todos %}
-        <li>
             <a href="{% url 'viewtodo'  todo.id  %}">
+                <li {% if todo.importance %}class="btn btn-danger" {% else %} class="btn btn-warning"{% endif %}  style="width: 100%; margin: 5px auto ">
                 {% if todo.importance %}<b>{% endif %}{{ todo.title }}</b>
                 {% if todo.text %} - {{todo.text }}{% endif %}
                 {{ todo.completing_date|date:'M j Y H:i' }}
+                </li>
             </a>
-        </li>
         {% endfor %}
     </ul>
 {% endblock %}

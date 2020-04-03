@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
-<a href="{% url 'createtodo' %}">Create</a>
-<a href="{% url 'currenttodos' %}">Current</a>
-<a href="{% url 'copletedtodos' %}">Completed</a>
-
-{% if user.is_authenticated %}
-    logged In as {{ user.username }}
-{% else %}
-    <a href="{% url 'signupuser' %}">Sign Up</a>
-    <a href="{% url 'loginuser' %}">Login</a>
-{% endif %}
-<form action="{% url 'logoutuser' %}" method="POST">
-    {% csrf_token %}
-    <button type="submit"> Logout</button>
-</form>
-
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'currenttodos' %}">Current Todos<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'createtodo' %}">Create Todo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'copletedtodos' %}">Completed Todos</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <ul class="navbar-nav mr-auto">
+          <li class="btn btn-secondary active">
+              {% if user.is_authenticated %}
+                Hello,{{ user.username }}!
+                  </li >
+                  <li class="btn btn-secondary active">
+            {% else %}
+                <a href="{% url 'signupuser' %}">Sign Up</a>
+                  </li >
+                  <li class="btn btn-secondary active">
+                <a href="{% url 'loginuser' %}">Login</a>
+            {% endif %}
+          </li>
+      <li class="nav-item active">
+          <form action="{% url 'logoutuser' %}" method="POST">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-secondary active"> Logout</button>
+    </form>
+      </li>
+      </ul>
+    </span>
+  </div>
+</nav>
 {% block content %}{% endblock %}
 </body>
 </html>

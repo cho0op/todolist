@@ -5,10 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todewoo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todewoo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todewoo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todewoo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/templates/todo/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/templates/todo/viewtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/viewtodo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/copletedtodos.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/copletedtodos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/createtodo.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/createtodo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/currenttodos.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/currenttodos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/loginuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/loginuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/signupuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/signupuser.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +94,8 @@
       <workItem from="1585728289090" duration="1846000" />
       <workItem from="1585747281676" duration="2069000" />
       <workItem from="1585759352362" duration="5592000" />
+      <workItem from="1585813775103" duration="4450000" />
+      <workItem from="1585900313262" duration="3275000" />
     </task>
     <servers />
   </component>

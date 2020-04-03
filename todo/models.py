@@ -10,4 +10,5 @@ class Todo(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE,default=1)
     def __str__(self):
         return self.title
+
 # Create your models here.
